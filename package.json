@@ -1,0 +1,17 @@
+{
+  "name": "book-recommendation-chatbot",
+  "version": "1.0.0",
+  "description": "Book Recommendation Chatbot using Node.js, Express, Google Books, Open Library and Wikipedia MediaWiki APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
